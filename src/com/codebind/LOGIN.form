@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.codebind.LOGIN">
+  <grid id="27dc6" binding="panel1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="435" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-11620955"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="14b85" class="javax.swing.JLabel" binding="labelUsuario">
+        <constraints/>
+        <properties>
+          <text value="Usuario"/>
+        </properties>
+      </component>
+      <component id="3f972" class="javax.swing.JTextField" binding="txtUsuario">
+        <constraints/>
+        <properties>
+          <columns value="35"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="9d2e4" class="javax.swing.JLabel" binding="txtPassword">
+        <constraints/>
+        <properties>
+          <text value="Password"/>
+        </properties>
+      </component>
+      <component id="dadca" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+        <constraints/>
+        <properties>
+          <columns value="45"/>
+        </properties>
+      </component>
+      <component id="7efcc" class="javax.swing.JButton" binding="ingresarButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Ingresar"/>
+        </properties>
+      </component>
+      <component id="ae7fb" class="javax.swing.JButton" binding="salirButton" default-binding="true">
+        <constraints/>
+        <properties>
+          <text value="Salir"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
